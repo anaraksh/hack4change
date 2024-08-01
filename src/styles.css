@@ -1,0 +1,9 @@
+/* src/styles.css */
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height */
+  text-align: center; /* Center text alignment */
+}

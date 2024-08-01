@@ -1,0 +1,48 @@
+/* src/styles.css */
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* Light blue background color */
+    padding: 20px; /* Added padding for some space around the container */
+  }
+  
+  .icon-container {
+    margin-bottom: 30px; /* Space between icon and the first input field */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjusted for spacing between input fields */
+    width: 300px;
+  }
+  
+  input {
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
